@@ -1,0 +1,217 @@
+div#menuhorizontal {
+	background-color: green;
+}
+
+
+div#menuhorizontal ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+div#menuhorizontal li {
+  float: left;
+}
+
+div#menuhorizontal li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div#menuhorizontal li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+div#menuhorizontal li.dropdown {
+  display: inline-block;
+}
+
+div#menuhorizontal .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+div#menuhorizontal .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+div#menuhorizontal .dropdown-content a:hover {background-color: #f1f1f1;}
+
+div#menuhorizontal .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+div#menuhorizontal li#about {
+	float:right
+}
+
+.center{text-align: center}
+
+img#bordas{border-radius: 50%}
+
+.form-submit-button{
+ background: #55C25F;
+ padding: 14px 638px;
+ border-style: none;
+ border-color: #55C25F;
+ text-align: center;
+ color: white;
+}
+
+.form-submit-button:hover{
+ background: #4CA354;
+ padding: 14px 638px;
+ border-style: none;
+ border-color: #4CA354;
+ text-align: center;
+ color: white;
+}
+
+.form-reset-button{
+ background: #55C25F;
+ padding: 14px 638px;
+ border-style: none;
+ border-color: #55C25F;
+ text-align: center;
+ color: white;
+}
+
+.form-reset-button:hover{
+ background: #4CA354;
+ padding: 14px 638px;
+ border-style: none;
+ border-color: #4CA354;
+ text-align: center;
+ color: white;
+}
+
+div#tabela{
+  text-align: left;
+}
+
+div#tabela select#sel_evento{
+  border-style: groove;
+  border-color: #F1F1F1;
+  text-align: left;
+  padding: 12px 560px;
+}
+
+div#tabela input#input_usuario{
+  border-style: groove;
+  border-color: #F1F1F1;
+  text-align: left;
+  padding: 12px 560px;
+}
+
+div#tabela input#input_nomecompleto{
+  border-style: groove;
+  border-color: #F1F1F1;
+  text-align: left;
+  padding: 12px 560px;
+}
+
+div#tabela input#input_email{
+  border-style: groove;
+  border-color: #F1F1F1;
+  text-align: left;
+  padding: 12px 560px;
+}
+
+div#tabela input#input_celular{
+  border-style: groove;
+  border-color: #F1F1F1;
+  text-align: left;
+  padding: 12px 560px;
+}
+
+div#tabela input#input_git{
+  border-style: groove;
+  border-color: #F1F1F1;
+  text-align: left;
+  padding: 12px 560px;
+}
+
+div#contat input#input_nome{
+  border-style: groove;
+  border-color: #F1F1F1;
+  text-align: left;
+  padding: 8px 560px;
+}
+
+div#contat input#input_email{
+  border-style: groove;
+  border-color: #F1F1F1;
+  text-align: left;
+  padding: 8px 560px;
+}
+
+div#contat input#input_telefone{
+  border-style: groove;
+  border-color: #F1F1F1;
+  text-align: left;
+  padding: 8px 560px;
+}
+
+div#contat select#sel_assunto{
+  border-style: groove;
+  border-color: #F1F1F1;
+  text-align: left;
+  padding: 8px 560px;
+}
+
+div#contat textarea#text_men{
+  border-style: groove;
+  border-color: #F1F1F1;
+  text-align: left;
+  padding: 8px 560px;
+}
+
+div#entr input#input_usuario{
+  border-style: groove;
+  border-color: #F1F1F1;
+  text-align: left;
+  padding: 8px 560px;
+}
+
+.fieldset{
+  border-style: none;
+  border-color: #f1f1f1;
+  background-color: #f1f1f1;
+}
+
+.container{
+  display:grid;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: 250px 250px;
+  column-gap: 100px;
+  row-gap: 10px;
+  text-align: center;
+  grid-template-areas: 
+    "one two"
+    "three four";
+}
+.item-a {
+  grid-area: one;
+}
+.item-b {
+  grid-area: two;
+}
+.item-c {
+  grid-area: three;
+}
+.item-d {
+  grid-area: four;
+}
